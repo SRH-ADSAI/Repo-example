@@ -1,5 +1,6 @@
 """This is the main module"""
 import random
+from bs import binary_search
 
 
 def main() -> list[int]:
@@ -11,4 +12,6 @@ def main() -> list[int]:
     _list = [random.randint(0, 20) for _ in range(50)]
 
     TODO: "sort the list with BS"
+    binary_search(_list, 10)
+
     return _list
