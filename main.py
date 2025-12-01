@@ -10,4 +10,5 @@ def main() -> list[int]:
     """
     _list = [random.randint(0, 20) for _ in range(50)]
 
+    TODO: "sort the list with BS"
     return _list
